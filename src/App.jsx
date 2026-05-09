@@ -16,67 +16,67 @@ import simplesuit from "./assets/simplesuit.jpg";
 const WHATSAPP_NUMBER = "919728324421";
 
 const categories = [
-  { name: "Simple Suit", stitch: 300, image: simplesuit, tag: "Popular" },
+  { name: "Simple Suit", stitch: "300-400", image: simplesuit, tag: "Popular" },
 
   {
     name: "Blouse Stitching",
-    stitch: 300,
+    stitch: "150-550",
     image: blouse,
     tag: "Trending"
   },
 
   {
     name: "Lehenga + Blouse",
-    stitch: 1200,
+    stitch: "1200-1500",
     image: lehenga,
     tag: "Popular"
   },
 
   {
     name: "Palazzo Suit",
-    stitch: 450,
+    stitch: "400-600",
     image: palazzo,
     tag: "New"
   },
 
   {
     name: "Gown",
-    stitch: 900,
+    stitch: "900-1200",
     image: gown,
     tag: "Premium"
   },
 
   {
     name: "Patiala Suit",
-    stitch: 500,
+    stitch: "500-700",
     image: patiala,
     tag: "Trending"
   },
 
   {
-    name: "North Indian Saree",
-    stitch: 800,
+    name: "North Indian Saree (On Order)",
+    stitch: "500-3000",
     image: northsaree,
     tag: "New"
   },
 
   {
     name: "Silk Fabric Suit",
-    stitch: 950,
+    stitch: "900-1100",
     image: silksuit,
     tag: "Premium"
   },
 
   {
-    name: "Designer Suit",
-    stitch: 1100,
+    name: "Designer Suit Anarkali",
+    stitch: "900-1200",
     image: anarkali,
     tag: "Trending"
   },
 
   {
     name: "Sharara Suit",
-    stitch: 700,
+    stitch: "600-800",
     image: sarara,
     tag: "Popular"
   },
@@ -90,7 +90,7 @@ const categories = [
 
   {
     name: "Other Stitching",
-    stitch: 0,
+    stitch: "As per Requirments",
     image: cover,
     tag: "Custom"
   }
@@ -589,7 +589,9 @@ I want to place / inquire about this order.`;
         <p>
           ✨ Premium Ladies Stitching Boutique
         </p>
-
+<p style={{ color: "#ffcc00", marginTop: "10px" }}>
+⚠️ Note: All stitching prices shown are tentative ranges. Final stitching cost will depend on customer design, fabric & customization requirements.
+</p>
         <p>
           📍 Near 16 No Bus Stop, Thergaon, Pune
         </p>
